@@ -8,7 +8,7 @@
     <meta name="keywords" content="reflections" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="css/stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css" />
 
     <title>MEDP 285 (Neil Kuldip) </title>
     
@@ -16,7 +16,37 @@
 
   <body>
     
-     
+     <div class="title_content">
+         <h1>MEDP 285 - Web Production I</h1>
+         <h2>Neil Kuldip</h2>
+
+         <h4 class="hidden_content"><em>Aiming to explore granular techniques for design and programming (using HTML, CSS, & JS). 
+             <br> <br>
+              Media content will be produced to understand how various fundamental interactive technologies relate and the creative process for web distribution. 
+             <br> <br>
+             Hope you enjoy my work! :)
+            </em>
+        </h4>
+
+        <script>
+            function showContent() {
+                let content = document.getElementById("assignment_links");
+                content.style.opacity = 1;
+            }    
+        </script>
+        <h3 class="hidden_content clickable" onclick="showContent()"><strong><u>Explore Content</u></strong></h3>
+     </div>
+
+     <section id="assignment_links">
+         <nav>
+             <ul>
+                 <h2><strong>Assignments</strong></h2>
+                 <li><a href="week01/hw1.html">HW#1 - As We May Think & Long Live the Web </a></li>
+                 <li><a href="week02/hw2.html">HW#2 - Way of Seeing </a></li>
+                 <li><a href="week03/hw3.html">HW#3 - Net.Art Readings </a></li>
+             </ul>
+         </nav>
+     </section>
 
   </body>
 </html>
