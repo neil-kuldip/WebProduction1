@@ -1,0 +1,49 @@
+.html {
+    background: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #388E3C;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head {
+    background-color: #FFCF07;
+    border-radius: 50%;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+}
+
+.eyes {
+    font-size: 100px;
+    float: left;
+    margin: 72px;
+}
+
+.nose {
+    font-size: 80px;
+    margin: auto;
+    top: 50%;
+    transform: translate(-1%, -15%);
+}
+
+.mouth {
+    width: 142px;
+    height: 47px;
+    border-bottom: 6px solid black;
+    border-radius: 0 0 140px 50%/60px;
+    transform: translate(125%, -80%);
+}
+
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFCF07;
+}
