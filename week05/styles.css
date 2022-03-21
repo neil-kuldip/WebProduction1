@@ -1,0 +1,45 @@
+body {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background: linear-gradient(#e9bcb7, #29524a); 
+    background-attachment: fixed;
+    position: relative;
+}
+
+#page_title {
+    width: 35vw;
+    padding: 1vw 4vh;
+    border: 0.5vw white solid;
+    background-color: white;
+    border-radius: 20px;
+    position: sticky;
+    top: 0vh;
+}
+
+img {
+    height: 60vh;
+    width: 40vw;
+}
+
+.shifted {
+    position: relative;
+    left: 5vw;
+}
+
+#main_content {
+    position: relative;
+    top: 2vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+.quote {
+    position: relative;
+    left: -15vw;
+    top: 2vw;
+}
+
+.quote2 {
+    position: relative;
+    left: 15vw;
+}
