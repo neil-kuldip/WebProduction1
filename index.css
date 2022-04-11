@@ -53,3 +53,12 @@ body {
   section#assignment_links > nav > ul {
     list-style-type: square;
   }
+
+  section#assignment_links > nav > ul > ul > li > a {
+    color: #00303F;
+    font-weight: bold;
+  }
+
+  section#assignment_links > nav > ul > ul {
+    list-style-type: circle;
+  }
