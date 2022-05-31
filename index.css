@@ -9,15 +9,15 @@ body {
       background-color: #CAE4DB;
       color: #00303F;
       height: 22vh;
-      width: 14vw;
+      width: 15vw;
       padding: 20px;
       float: left;
       transition: 600ms;
   }
 
   .title_content:hover {
-      height: 50vh;
-      width: 32vw;
+      height: 40%;
+      width: 25%;
       padding: 40px;
   }
 
@@ -38,7 +38,7 @@ body {
       background-color: #CAE4DB;
       color: #00303F;
       height: 50%;
-      width: 40%;
+      width: 30%;
       padding: 20px;
       float: left;
       margin-left: 20px;
