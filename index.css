@@ -1,22 +1,23 @@
 body {
     background-color: #00303F;
-    justify-content: center;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .title_content {
       background-color: #CAE4DB;
       color: #00303F;
-      height: 200px;
-      width: 200px;
+      height: 22vh;
+      width: 14vw;
       padding: 20px;
       float: left;
       transition: 600ms;
   }
 
   .title_content:hover {
-      height: 400px;
-      width: 400px;
+      height: 50vh;
+      width: 32vw;
       padding: 40px;
   }
 
@@ -26,7 +27,7 @@ body {
 
   .title_content:hover .hidden_content {
       opacity: 1;
-      transition: 4.7s;
+      transition: 800ms;
   }
 
   .clickable {
@@ -36,8 +37,8 @@ body {
   #assignment_links {
       background-color: #CAE4DB;
       color: #00303F;
-      height: 600px;
-      width: 400px;
+      height: 50%;
+      width: 40%;
       padding: 20px;
       float: left;
       margin-left: 20px;
@@ -62,3 +63,51 @@ body {
   section#assignment_links > nav > ul > ul {
     list-style-type: circle;
   }
+
+  #github {
+    margin-left: 1vw;
+  }
+  #github:hover {
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 900px) {
+    h1 {
+      font-size: 5vw;
+    }
+    h2 {
+      font-size: 4vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+    h4 {
+      font-size: 3vw;
+    }
+    li {
+      font-size: 3.5vw;
+    }
+    p {
+      font-size: 4vw;
+    }
+
+    .title_content {
+      height: 20vh;
+      width: 35vw;
+      margin-bottom: 2vh;
+      transition: 600ms;
+    }
+
+  .title_content:hover {
+      height: 32%;
+      width: 100%;
+      padding: 3vw;
+  }
+
+  #assignment_links {
+    height: 35%;
+    width: 100%;
+    margin-left: 0px;
+    float: left;
+  }
+}

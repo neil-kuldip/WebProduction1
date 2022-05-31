@@ -32,14 +32,17 @@
             function showContent() {
                 let content = document.getElementById("assignment_links");
                 content.style.opacity = 1;
-            }    
+            } 
+            function gotoGithubProfile() {
+                window.location.href = "https://github.com/neil-kuldip";
+            }   
         </script>
         <h3 class="hidden_content clickable" onclick="showContent()"><strong><u>Explore Content</u></strong></h3>
      </div>
 
      <section id="assignment_links">
          <nav>
-            <h2><strong>Assignments</strong></h2>
+            <h1><strong>Assignments</strong></h1>
              <ul>
                  <li><a href="week01/hw1.html">HW#1 - As We May Think & Long Live the Web</a></li>
                  <li><a href="week02/hw2.html">HW#2 - Way of Seeing</a></li>
@@ -54,7 +57,8 @@
                  </ul>
                  <li><a href="https://neil-kuldip.github.io/Cleos-Crazy-Craze/">Final Project - Cleo's Crazy Craze (Partner: Tashira Reyes)</a></li>
              </ul>
-             <h4><a href="https://github.com/neil-kuldip">Checkout my Github Profile (with the code for these assignments)</a></h4>
+             <p><strong>Checkout my Profile & Code</strong></p>
+             <img id="github" src="assets/GitHub-Mark-32px.png" onclick="gotoGithubProfile()"/>
          </nav>
      </section>
 
